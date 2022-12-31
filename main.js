@@ -28,23 +28,28 @@ function got_result(error,result)
         document.getElementById("result").innerHTML = sound;
         if(sound=="dog")
         {
-            document.getElementById("dog").src="dog.jpg";
+            document.getElementById("Animal").src="dog.jpg";
             
         }
 
         else if(sound=="cat")
         {
-            document.getElementById("cat").src="cat.webp";
+            document.getElementById("Animal").src="cat.webp";
         }
 
         else  if(sound=="duck")
         {
-            document.getElementById("duck").src="duck.webp";    
+            document.getElementById("Animal").src="duck.webp";    
         }
 
         else if(sound=="cow")
         {
-            document.getElementById("cow").src="cow.webp";
+            document.getElementById("Animal").src="cow.webp";
+        }
+
+        else if(sound=="BackgroundNoise")
+        {
+            document.getElementById("Animal").src="download.png";
         }
     }
 }
